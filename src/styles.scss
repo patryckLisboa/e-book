@@ -1,1 +1,46 @@
-/* You can add global styles to this file, and also import other style files */
+// @import "~ngx-materialize/dist/index";
+
+span {
+    color: #4caf50;
+    font-weight: 600; /* Cor de destaque no tema de saúde e nutrição */
+  }
+  
+  button {
+    padding: 10px 15px 0px; /* Aumentei um pouco o padding para destacar o botão */
+  }
+  
+  body {
+    margin: 0px;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 0.1px; /* Defina a largura da barra de rolagem como 0 */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: transparent; /* Cor do "polegar" (barra de rolagem) */
+  }
+  
+  html, body { height: 100%; }
+  body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+  
+  * {
+    transition: 0.5s ;
+  }
+  
+  .button {
+    display: inline-block;
+    background-color: #4caf50; /* Cor do botão seguindo o tema */
+    text-decoration: none;
+    border: none;
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #367c3d; /* Cor mais escura no hover */
+  }
+  
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
